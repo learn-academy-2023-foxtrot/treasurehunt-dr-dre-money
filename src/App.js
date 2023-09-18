@@ -16,7 +16,7 @@ const App = () => {
   ])
   const handleClick = (selectedIndex) => {
     return (
-      alert(selectedIndex)
+      board[selectedIndex]="🫡"
     )
   }
   return (
